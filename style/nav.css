@@ -1,0 +1,48 @@
+* {
+   margin: 0px;
+   padding: 0px;
+}
+/* shard */
+
+
+.main-body {
+   width: 80%;
+   margin: 20px auto;
+}
+
+
+.navber {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+nav div h2 {
+   font-size: 30px;
+}
+.perent-list {
+   display: flex;
+   align-items: center;
+   gap: 25px;
+   font-size: 20px;
+}
+.perent-list li {
+   list-style: none;
+}
+.perent-list li:hover {
+   color: deeppink;
+   text-decoration: underline;
+   transform: scale(1.3);
+   transition: 580ms;
+}
+.comment {
+   position: relative;
+}
+.comment-text {
+   font-size: 10px;
+   position: absolute;
+   right: 2px;
+   bottom: 19px;
+}
+.mobile-nav {
+   display: none;
+}
